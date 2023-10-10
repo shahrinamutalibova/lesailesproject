@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.active{
+  color: black;
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.h4{
+  text-decoration:overline;
+}
+.navgrey{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 6px 0px;
+  background-color: #F4F5F5;
+  font-size: 15px;
+}
+.div1, .div2{
+  width: 46%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.div2{
+  justify-content: end;
+  text-align: end;
+}
+.h4{
+  text-decoration: underline;
+}
+.p{
+  margin-left:15px;
+  font-weight: 500;
+}
+.preverse{
+  margin-left: 20px;
+}
+.navbar1{
+  width: 95%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.navbar2{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.my-custom-input .ant-input {
+  height: 40px;
+  border-radius: 5px;
+}
+.footer{
+  width: 95%;
+  margin: auto;
+}
+.footer1, .footer2{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.link,.link1{
+  text-decoration: none;
+  font-size: 14px;
+  color: grey;
+  padding: 3px 0;
+  transition: 2s;
+}
+.f1{
+  width: 18%;
+  line-height: 40px;
+}
+.footer3{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.btn1{
+  border:none;
+  color:white; 
+   background:purple
+}
+.btn1:hover{
+    border: 1px solid purple;
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+}
+.links{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.alink{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
